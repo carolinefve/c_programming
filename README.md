@@ -26,6 +26,14 @@ gcc -o rectangle -I../../graphics rectangle.c ../../graphics/graphics.c
 
 <img src="imgs/rectangle.png" alt="house drawing" width="300">
 
+```
+cd octagon
+gcc -o octagon -I../../graphics octagon.c ../../graphics/graphics.c
+./octagon | java -jar ../../graphics/drawapp-4.5.jar
+```
+
+<img src="imgs/octagon.png" alt="house drawing" width="300">
+
 ### `gcc -Igraphics`
 
 The `-I` flag is a preprocessor option that adds a specified directory to the header search path.
